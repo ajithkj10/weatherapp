@@ -1,5 +1,3 @@
-// const apiKey="f87bb2dba09f4bd3838121847240809"
-// const apiUrl="http://api.weatherapi.com/v1/current.json?key=f87bb2dba09f4bd3838121847240809&q="
 
 async function checkWeather(city){
    
@@ -12,7 +10,7 @@ async function checkWeather(city){
     const image=document.getElementById('weather-icon')
     image.src=`https:${icon}`
     // document.getElementById('weatherDetail').style.display="block"
-    // document.getElementById('error').style.display="none"
+    
     
 }
 const searchBtn=document.getElementById('searchBtn')
