@@ -1,1 +1,2 @@
 # weatherapp
+simple wewather app
